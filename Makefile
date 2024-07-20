@@ -1,4 +1,4 @@
-#
+SHELL := /bin/bash
 
 include ../../Makefile.defs
 auto_gen=
@@ -20,9 +20,6 @@ DEFS+=$(MYINC_PARAMS)
 
 LIBS+= -L$(SYSBASE)/include/lib -L/usr/local/lib/ -L$(LOCALBASE)/lib -L./libzzz/lib
 LIBS+= -lzzz
-
-SERLIBPATH=../../lib
-SER_LIBS+=$(SERLIBPATH)/srutils/srutils
 
 include ../../Makefile.modules
 

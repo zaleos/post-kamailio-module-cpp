@@ -64,7 +64,7 @@
 // #included from: catch_compiler_capabilities.h
 #define TWOBLUECUBES_CATCH_COMPILER_CAPABILITIES_HPP_INCLUDED
 
-// Much of the following code is based on Boost (1.53)
+// Much of the following code is based on Boost (1.74)
 
 #ifdef __clang__
 
